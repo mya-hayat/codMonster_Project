@@ -1,0 +1,77 @@
+#orderForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 450px;
+    min-width: 350px;
+    position: relative;
+    border: 2px solid #007523;
+    box-shadow: #11437412 0px 9px 19px;
+    border-radius: 5px !important;
+    background: #fff;
+    overflow: hidden;
+    padding: 15px 50px 15px 30px;
+}
+
+#orderForm h4 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#orderForm .form-group{
+    flex: 0 0 100%;
+    position: relative;
+    margin-bottom: 8px;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#orderForm .form-group label{
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+
+#orderForm .form-group input{
+    width: 100%;
+    display: block;
+    font-family: 'Tajawal', sans-serif;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 9px !important;
+    color: #232226;
+    background: #efefef!important;
+    -webkit-appearance: none;
+    margin: 0;
+    border: none;
+    height: 24px !important;
+}
+
+#orderForm .form-group button{
+    width: 100%;
+    display: block;
+    font-family: 'Tajawal', sans-serif;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 9px !important;
+    height: auto !important;
+    color: #232226;
+    background: #efefef!important;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #444;
+}
+
+#orderForm .form-group button:hover{
+    opacity: 0.7;
+}
